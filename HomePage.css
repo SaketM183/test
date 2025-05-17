@@ -1,0 +1,67 @@
+h1{
+    text-align: center; /*Makes the text centred*/
+    width: 1900px; /*Sets how long its going to be*/
+    font-size: 80px; /*Sets how big the font of the text is going to be*/
+    font-family: "Nunito", sans-serif; /*Allows me to set a particular font on different text*/
+    color: #b26e63; /*Changes the colour of the text*/
+}
+
+p{
+    color: #c0caad; /*Changes the colour of the text*/
+    font-size: 20px; /*Sets how big the font of the text is going to be*/
+    font-family: "Nunito", sans-serif; /*Allows me to set a particular font on different text*/
+}   
+
+body{
+    background-color: #dbd3d8; /*Changes the background colour of my website*/
+}
+
+nav ul {
+    list-style-type: disc; /* Adds dot points */
+    padding: 0; /*I can change this for better spacing*/
+    text-align: left; /*The text will be placed on the left*/
+    margin-left: 250px; /* Adjusted for better spacing */
+    font-family: "Nunito", sans-serif; /*Allows m to set a particular font on different text*/
+    color: #223843 /*Changes the colour of the text*/
+}
+nav ul li {
+    display: block; /* Puts each link on a new line */
+    margin-bottom: 100px; /* Increases spacing between links */
+    color: #223843 /*Changes the colour of the text*/
+}
+nav ul li a {
+    font-size: 50px; /* Sets font size to 50px */
+    color: #223843 /*Changes the colour of the text*/
+}
+
+.info-box {
+    position: absolute; /*Make sure that that the image will stay exactly where I want it to be on the website*/
+    top: 20%; /*Changes how much from the top the box will be*/
+    right: 10%; /*Changes how much from the right box will be*/
+    width: 50%; /*Changes the width of the box*/
+    height: 30%; /*Changes the height (Length) of the box*/
+    background-color: #654c4f; /*Changes the colour of the background of the box*/
+    border: 2px solid black; /*Gives the box a border*/
+    padding: 20px; /*Gives the box spacing*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /*Gives the box a shadow*/
+}
+
+.nintendo-logo {
+    width: 350px; /*Changes the width of the image*/
+    height: auto; /*Changes the height (Length) of the image*/
+    position: absolute; /*Makes sure that the image will stay exactly where I want it to be on the website*/
+    top: 60%; /* Changes how much from the top the image will be*/
+    left: 43%; /*Changes how much from the left the image will be*/
+    display: block; /*Changes from incline to a block display value*/
+    margin-bottom: 10px; /* optional spacing below the image */
+}
+
+.money-gif {
+    width: 450px; /*Changes the width of the image*/
+    height: auto; /*Changes the height (Length) of the gif*/
+    position: absolute; /*Makes sure that the image will stay exactly where I want it to be on the website*/
+    top: 60%; /* Changes how much from the top the image will be*/
+    left: 65%; /*Changes how much from the left the image will be*/
+    display: block; /*Changes from incline to a block display value*/
+    margin-bottom: 10px; /* optional spacing below the image */
+}
